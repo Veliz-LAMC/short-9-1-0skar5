@@ -160,6 +160,21 @@ aside img {
 	padding-bottom: 1em;
 }
 
+/* styles for the left aside */
+#left {
+	flex-basis: 30%;
+	order: 1;
+	padding: 0 0 20px 2.5%;
+
+}
+
+/* styles for the right aside */
+#right {
+	flex-basis: 30%;
+	order: 3;
+	padding: 0 2.5% 20px 2.5%;
+}
+
 /* the styles for the footer */
 footer {
 	background-color: #931420;
